@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oxanium', cursive;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  background-color: #7f1492;
+  box-shadow: 0 6px 8px #5b0788;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../assets/pxfuel.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 62px;
+}
+
+h2 {
+  color: #fff;
+  font-size: 32px;
+}
